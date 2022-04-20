@@ -52,6 +52,7 @@ header a {
     background-color: #0061ff;
     padding: 0.3rem 1rem;
     color: white;
+    text-align: center;
 }
 
 .blue-padding > a {
@@ -83,6 +84,7 @@ section:nth-of-type(1) {
     text-align: start;
     padding-bottom: 0.3rem;
     padding-top: 3rem;
+    padding-right: 3rem;
 }
 
 .cont-col-first {
@@ -109,7 +111,7 @@ section:nth-of-type(2) {
 }
 
 .container-second {
-    width: 52%;
+    width: 54%;
     margin: 0 auto;
 }
 
@@ -122,6 +124,8 @@ section:nth-of-type(2) {
     margin-left: 2rem;
 }
 
+/* SECOND SECTION COLUMNS */
+
 .cont-col-second {
     margin-top: 2rem;
     display: flex;
@@ -132,4 +136,59 @@ section:nth-of-type(2) {
 .col-second {
     flex-basis: calc(100% / 3);
     border: 1px solid #b9b8b8;
+    min-height: 880px;
+}
+
+.col-second div:first-child {
+    text-align: center;
+    border-bottom: 1px solid #b9b8b8;
+    padding: 0.4rem 0;
+}
+
+.col-second > h3 {
+    padding-bottom: 0.7rem;
+    padding-top: 1.2rem;
+}
+
+.col-second > h5 {
+    padding-bottom: 0.6rem;
+}
+
+.col-second > ul {
+    padding-top: 2.5rem;
+}
+
+ul > li {
+    padding-bottom: 1rem;
+}
+
+.prova {
+    max-width: 80%;
+    font-size: 0.85rem;
+    margin: 1.3rem auto;
+}
+
+.buy-now {
+    text-decoration: underline;
+    color: blue;
+}
+
+.col-hr {
+    width: 30%;
+    border: 1.2px solid #b9b8b8;
+    margin-top: 1.5rem;
+    margin-bottom: 1.7rem;
+    margin-left: 2rem;
+}
+
+.fa-check {
+    color: #0061ff;
+}
+
+.col-second h3,h5,span {
+    margin-left: 1rem;
+}
+
+.oppure {
+    margin-left: 1rem;
 }
