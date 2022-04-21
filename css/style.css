@@ -60,7 +60,7 @@ PER VARI PULSANTI */
     color: white;
 }
 
-/* MAIN CLASSES */
+/* MAIN SECTION CLASSES */
 
 /* FIRST SECTION */
 
@@ -76,7 +76,7 @@ section:nth-of-type(1) {
 
 .container-first {
     margin: 0 auto;    
-    width: 60%;
+    width: 64%;
     height: 400px;    
 }
 
@@ -94,28 +94,36 @@ section:nth-of-type(1) {
     top: 4rem;
 }
 
-.annulla {
-    padding-bottom: 1.8rem;
-}
-
-.arrow-down {
-    font-size: 3rem;
-}
-
-.col-first-dx {
-    flex-basis: 370%;
-}
+/* LEFT COLUMN */
 
 .inizia {
     width: fit-content;
     margin-bottom: 1rem;
 }
 
+.annulla {
+    padding-bottom: 1.8rem;
+}
+
+.col-first-sx div:last-child {
+    font-size: 3rem;
+}
+
+/* RIGHT COLUMN */
+
+.col-first-dx {
+    flex-basis: 370%;
+}
+
+.col-first-dx > img {
+    width: 100%;
+}
+
 /* SECOND SECTION */
 
 section:nth-of-type(2) {
     min-height: 700px;
-    padding-top: 5rem;    
+    padding-top: 8rem;    
 }
 
 .container-second {
@@ -132,7 +140,7 @@ section:nth-of-type(2) {
     margin-left: 2rem;
 }
 
-/* SECOND SECTION 3 COLUMNS */
+/* THREE VERTICAL COLUMNS */
 
 .cont-col-second {
     margin-top: 2rem;
@@ -149,6 +157,10 @@ section:nth-of-type(2) {
 
 section:nth-of-type(2) .col-second {
     padding-right: 0.7rem;
+}
+
+.pad-bottom {
+    padding-bottom: 1.7rem;
 }
 
 .customer {
@@ -206,7 +218,7 @@ ul > li {
     margin-left: 1rem;
 }
 
-/* SECOND SECTION WIDE COLUMN */
+/* SINGLE WIDE COLUMN */
 
 .col-second-wide {
     width: 100%;
@@ -308,6 +320,8 @@ section:nth-of-type(4) p {
 
 section:nth-of-type(4) h3 {
     margin-left: 0;
+    padding-top: 0;
+    padding-bottom: 1.6rem;
 }
 
 /* FIFTH SECTION */
@@ -321,6 +335,11 @@ section:nth-of-type(5) {
 section:nth-of-type(5) h2 {
     padding-bottom: 3rem;
     font-size: 1.7rem;
+}
+
+section:nth-of-type(5) a {
+    color: blue;
+    text-decoration: underline;
 }
 
 /* SIXTH SECTION */
