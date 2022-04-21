@@ -30,7 +30,7 @@ p {
     margin-bottom: 1.3rem;
 }
 
-/* CLASSI HEADER */
+/* HEADER CLASSES */
 
 .nav-right, .nav-left {
     display: flex;
@@ -47,7 +47,8 @@ header a {
     color: black;
 }
 
-/* CLASSE RIUTILIZZABILE */
+/* CLASSE RIUTILIZZABILE
+PER VARI PULSANTI */
 .blue-padding {
     background-color: #0061ff;
     padding: 0.3rem 1rem;
@@ -59,7 +60,7 @@ header a {
     color: white;
 }
 
-/* CLASSI MAIN */
+/* MAIN CLASSES */
 
 /* FIRST SECTION */
 
@@ -110,7 +111,7 @@ section:nth-of-type(2) {
 }
 
 .container-second {
-    width: 54%;
+    width: 58%;
     margin: 0 auto;
 }
 
@@ -127,14 +128,15 @@ section:nth-of-type(2) {
 
 .cont-col-second {
     margin-top: 2rem;
-    display: flex;    
-    gap: 2rem;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.6rem;
 }
 
 .col-second {
-    flex-basis: calc(100% / 3);
-    border: 1px solid #b9b8b8;
-    min-height: 890px;
+    flex-basis: calc((100% / 3) - 1.6rem);
+    border: 1px solid #b9b8b8;    
 }
 
 .customer {
@@ -237,8 +239,7 @@ ul > li {
 
 section:nth-of-type(3) {
     min-height: 700px;
-    padding-top: 7rem;
-    background-color: green;
+    padding-top: 7rem;    
 }
 
 .cont-col-third {
@@ -272,4 +273,30 @@ section:nth-of-type(3) {
 
 .trova > a {
     color: black;
+}
+
+/* FOURTH SECTION */
+
+section:nth-of-type(4) {
+    min-height: 700px;    
+}
+
+.col-second > img {
+    width: 100%;
+}
+
+section:nth-of-type(4) p {
+    font-size: 0.85rem;
+}
+
+section:nth-of-type(4) h3 {
+    margin-left: 0;
+}
+
+/* FIFTH SECTION */
+
+section:nth-of-type(5) {
+    min-height: 700px;
+    padding-top: 7rem;
+    background-color: green;
 }
