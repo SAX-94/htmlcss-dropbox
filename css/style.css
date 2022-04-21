@@ -340,23 +340,37 @@ section:nth-of-type(6) {
     width: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
-    gap: 0;
-    border: 1px solid black;
+    gap: 0;    
 }
 
 .central-box {
     width: calc(100% / 3);
     background-color: #f5f5f5;
+    padding: 2.5rem;
+}
+
+.central-box > img {
+    width: 55%;
 }
 
 .lat-square {
     width: 50%;
     height: 252.19px;
-    border: 1px solid black;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.lat-square > img {
+    width: 50%;
+    filter: invert(100%);
+}
+
+/* BACKGROUND COLORS OF SQUARES */
 
 .light-green {
     background-color: #a2d39b;
+    border: 0.8rem solid #d1e9cd;
 }
 
 .bordeaux {
