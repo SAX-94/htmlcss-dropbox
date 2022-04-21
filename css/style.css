@@ -106,8 +106,7 @@ section:nth-of-type(1) {
 
 section:nth-of-type(2) {
     min-height: 700px;
-    padding-top: 5rem;
-    background-color: rgb(176, 73, 73);
+    padding-top: 5rem;    
 }
 
 .container-second {
@@ -232,4 +231,45 @@ ul > li {
 
 .col-second-dx > h5 {
     padding-bottom: 3rem;
+}
+
+/* THIRD SECTION */
+
+section:nth-of-type(3) {
+    min-height: 700px;
+    padding-top: 7rem;
+    background-color: green;
+}
+
+.cont-col-third {
+    display: flex;    
+}
+
+.col-third-sx > img {
+    width: 100%;
+}
+
+.col-third-dx {
+    flex-basis: 90%;
+    padding: 2.5rem 2.1rem;
+}
+
+.col-third-dx > h3 {
+    padding-bottom: 1rem;
+}
+
+.col-third-dx > p {
+    padding-bottom: 1rem;
+}
+
+.trova {
+    border: 1px solid black;
+    width: fit-content;
+    padding: 0.3rem 0.7rem;
+    text-align: center;
+    background-color: white;
+}
+
+.trova > a {
+    color: black;
 }
