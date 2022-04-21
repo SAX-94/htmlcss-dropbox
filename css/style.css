@@ -178,8 +178,13 @@ section:nth-of-type(2) .col-second {
     padding-bottom: 0.6rem;
 }
 
+.month {
+    font-size: 0.85rem;
+    color: #8a8d8e;
+}
+
 .col-second > ul {
-    padding-top: 2.5rem;
+    padding-top: 1rem;
 }
 
 ul > li {
@@ -199,9 +204,9 @@ ul > li {
 }
 
 .col-hr {
-    width: 30%;
-    border: 1.2px solid #b9b8b8;
-    margin-top: 1.5rem;
+    width: 22%;
+    border: 0.8px solid #b9b8b8;
+    margin-top: 2.1rem;
     margin-bottom: 1.7rem;
     margin-left: 2rem;
 }
@@ -216,6 +221,7 @@ ul > li {
 
 .oppure {
     margin-left: 1rem;
+    font-size: 0.85rem;
 }
 
 /* SINGLE WIDE COLUMN */
@@ -371,6 +377,21 @@ section:nth-of-type(6) {
 .central-box > img {
     width: 55%;
 }
+
+.box-hr {
+    border: 0.8px solid #a1a8b3;
+    width: 22%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.central-box p {
+    padding-bottom: 3rem;
+}
+
+.central-box > span {
+    margin-left: 0;
+} 
 
 .lat-square {
     width: 50%;
