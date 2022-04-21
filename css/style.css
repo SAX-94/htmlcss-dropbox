@@ -135,8 +135,12 @@ section:nth-of-type(2) {
 }
 
 .col-second {
-    flex-basis: calc((100% / 3) - 1.6rem);
+    flex-basis: calc((100% / 3) - 2rem);
     border: 1px solid #b9b8b8;    
+}
+
+section:nth-of-type(2) .col-second {
+    padding-right: 0.7rem;
 }
 
 .customer {
@@ -160,6 +164,7 @@ section:nth-of-type(2) {
 
 ul > li {
     padding-bottom: 1rem;
+    font-size: 0.85rem;
 }
 
 .prova {
@@ -296,7 +301,13 @@ section:nth-of-type(4) h3 {
 /* FIFTH SECTION */
 
 section:nth-of-type(5) {
-    min-height: 700px;
+    min-height: 250px;
     padding-top: 7rem;
+    padding-bottom: 7rem;
     background-color: green;
+}
+
+section:nth-of-type(5) h2 {
+    padding-bottom: 3rem;
+    font-size: 1.7rem;
 }
