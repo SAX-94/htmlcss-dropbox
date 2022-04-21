@@ -124,7 +124,7 @@ section:nth-of-type(2) {
     margin-left: 2rem;
 }
 
-/* SECOND SECTION COLUMNS */
+/* SECOND SECTION 3 COLUMNS */
 
 .cont-col-second {
     margin-top: 2rem;
@@ -138,7 +138,7 @@ section:nth-of-type(2) {
     min-height: 890px;
 }
 
-.col-second div:first-child {
+.customer {
     text-align: center;
     border-bottom: 1px solid #b9b8b8;
     padding: 0.4rem 0;
@@ -190,4 +190,46 @@ ul > li {
 
 .oppure {
     margin-left: 1rem;
+}
+
+/* SECOND SECTION WIDE COLUMN */
+
+.col-second-wide {
+    width: 100%;
+    border: 1px solid #b9b8b8;
+    padding-bottom: 0.3rem;    
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-second-dx {
+    padding: 1.5rem;
+    width: 60%;
+    float: left;
+}
+
+.col-second-dx > h5 {
+    margin-left: 0;
+}
+
+.col-second-dx > span {
+    margin-left: 0;
+}
+
+.col-second-sx {
+    float: right;
+    padding-top: 2rem;
+    padding-right: 2rem;
+}
+
+.col-second-dx > h3 {
+    padding-bottom: 0.7rem;
+}
+
+.col-second-dx > h5 {
+    padding-bottom: 3rem;
 }
