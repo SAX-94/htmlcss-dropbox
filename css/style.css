@@ -483,6 +483,9 @@ section:nth-of-type(8) {
 .faq {
     padding-top: 1.9rem;
     padding-bottom: 1.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .faq-1 {
@@ -496,6 +499,13 @@ section:nth-of-type(8) {
 
 .faq-3 {
     border-bottom: 1px solid #a3a3a3;
+}
+
+.mark {
+    transform: rotate(90deg);
+    padding: 0.5rem;
+    margin-right: 2.5rem;
+    font-weight: 900;
 }
 
 /* DARK FOOTER */
