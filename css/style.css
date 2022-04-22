@@ -502,5 +502,26 @@ section:nth-of-type(8) {
 
 footer {
     background-color: black;
+    padding-top: 5rem;
     min-height: 400px;
+}
+
+.container-foot {
+    color: white;
+    margin: 0 auto;    
+    width: 70%;
+    height: 700px;
+}
+
+.foot-col-cont {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.foot-col {
+    flex-basis: calc((100% / 5) - 2rem);
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
 }
