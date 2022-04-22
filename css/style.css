@@ -163,9 +163,13 @@ section:nth-of-type(2) .col-second {
     padding-bottom: 1.7rem;
 }
 
+.cust-bord {
+    margin-right: -0.7rem;
+    border-top: 1px solid #b9b8b8;
+}
+
 .customer {
-    text-align: center;
-    border-bottom: 1px solid #b9b8b8;
+    text-align: center;    
     padding: 0.4rem 0;
 }
 
