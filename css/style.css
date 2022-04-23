@@ -163,15 +163,19 @@ section:nth-of-type(2) .col-second {
     padding-bottom: 1.7rem;
 }
 
-.cust-bord {
-    margin-right: -0.7rem;
-    border-top: 1px solid #b9b8b8;
-}
-
 .customer {
     text-align: center;    
     padding: 0.4rem 0;
 }
+
+.cust-bord {
+    margin-right: -0.7rem;
+    border-top: 1px solid #b9b8b8;
+} /* Classe creata per rimediare a un errore.
+Avrei dovuto creare un div in più, che contenesse
+col-second e customer, così da poter dare il padding-right
+solo alla prima, e non a entrambe. Essendomene accorto troppo
+tardi, ho rimediato con questo accrocco, che dà la stessa resa estetica */
 
 .col-second > h3 {
     padding-bottom: 0.7rem;
@@ -242,9 +246,13 @@ ul > li {
     clear: both;
 }
 
+.team {
+    border-bottom: 1px solid #b9b8b8;
+}
+
 .col-second-dx {
     padding: 1.5rem;
-    width: 60%;
+    width: 65%;
     float: left;
 }
 
