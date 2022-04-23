@@ -143,7 +143,7 @@ section:nth-of-type(2) {
 /* THREE VERTICAL COLUMNS */
 
 .cont-col-second {
-    margin-top: 2rem;
+    margin-top: 2.7rem;
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-between;
@@ -151,7 +151,7 @@ section:nth-of-type(2) {
 }
 
 .col-second {
-    flex-basis: calc((100% / 3) - 2rem);
+    flex-basis: calc((100% / 3) - 1.6rem);
     border: 1px solid #b9b8b8;    
 }
 
@@ -204,6 +204,8 @@ ul > li {
     max-width: 80%;
     font-size: 0.85rem;
     margin: 1.3rem auto;
+    position: relative;
+    left: 0.35rem;
 }
 
 .buy-now {
