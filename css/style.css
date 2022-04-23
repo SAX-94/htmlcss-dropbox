@@ -250,20 +250,9 @@ ul > li {
     border-bottom: 1px solid #b9b8b8;
 }
 
-.col-second-dx {
-    float: right;
-    padding-top: 1.5rem;
-    padding-right: 2rem;
-}
-
-.col-second-dx a {
-    font-size: 0.85rem;
-    padding: 0.3rem 1rem;
-}
-
 .col-second-sx {
-    padding: 1.5rem;
-    width: 65%;
+    padding: 1.5rem 0 1.5rem 1.5rem;
+    width: 68%;
     float: left;
 }
 
@@ -281,6 +270,17 @@ ul > li {
 .col-second-sx > span {
     margin-left: 0;
     font-size: 0.9rem;
+}
+
+.col-second-dx {
+    float: right;
+    padding-top: 1.5rem;
+    padding-right: 2rem;
+}
+
+.col-second-dx a {
+    font-size: 0.85rem;
+    padding: 0.3rem 1rem;
 }
 
 /* THIRD SECTION */
