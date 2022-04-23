@@ -127,7 +127,7 @@ section:nth-of-type(2) {
 }
 
 .container-second {
-    width: 58%;
+    width: 54%;
     margin: 0 auto;
 }
 
@@ -251,36 +251,36 @@ ul > li {
 }
 
 .col-second-dx {
+    float: right;
+    padding-top: 1.5rem;
+    padding-right: 2rem;
+}
+
+.col-second-dx a {
+    font-size: 0.85rem;
+    padding: 0.3rem 1rem;
+}
+
+.col-second-sx {
     padding: 1.5rem;
     width: 65%;
     float: left;
 }
 
-.col-second-dx > h5 {
+.col-second-sx h3 {
+    font-size: 1.5rem;
+    padding-bottom: 0.9rem;
+}
+
+.col-second-sx > h5 {
     margin-left: 0;
+    padding-bottom: 2.6rem;
+    font-size: 0.9rem;
 }
 
-.col-second-dx > span {
+.col-second-sx > span {
     margin-left: 0;
-}
-
-.col-second-sx {
-    float: right;
-    padding-top: 2rem;
-    padding-right: 2rem;
-}
-
-.col-second-sx a {
-    font-size: 0.85rem;
-    padding: 0.3rem 1rem;
-}
-
-.col-second-dx > h3 {
-    padding-bottom: 0.7rem;
-}
-
-.col-second-dx > h5 {
-    padding-bottom: 3rem;
+    font-size: 0.9rem;
 }
 
 /* THIRD SECTION */
