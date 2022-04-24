@@ -51,11 +51,11 @@ header a {
 
 /* HOVER EFFECT ON HEADER LINKS */
 
-.nav-right>div:hover {
+.nav-right>.hov-nav:hover {
     border-bottom: 1px solid black;
 }
 
-.nav-left>div:hover {
+.nav-left>.hov-nav:hover {
     border-bottom: 1px solid black;
 }
 
