@@ -37,14 +37,26 @@ p {
     align-items: center;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    min-height: 70px;
 }
 
 .nav-right > div, .nav-left > div {
     padding: 0.3rem 1rem;
+    height: 100%;
 }
 
 header a {
     color: black;
+}
+
+/* HOVER EFFECT ON HEADER LINKS */
+
+.nav-right>div:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-left>div:hover {
+    border-bottom: 1px solid black;
 }
 
 /* CLASSE RIUTILIZZABILE
