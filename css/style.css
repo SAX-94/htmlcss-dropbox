@@ -245,7 +245,7 @@ ul > li {
 .clearfix::after {
     content: "";
     display: table;
-    clear: both;
+    clear: left;
 }
 
 .team {
@@ -275,6 +275,7 @@ ul > li {
 }
 
 .col-second-dx {
+    height: 100%;
     float: right;
     padding-top: 1.5rem;
     padding-right: 2rem;
