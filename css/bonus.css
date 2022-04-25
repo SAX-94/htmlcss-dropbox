@@ -406,11 +406,10 @@ section:nth-of-type(6) {
 
 .central-box {
     width: calc(100% / 3);
-    background-color: #f5f5f5;
-    padding: 2.5rem;
+    background-color: #f5f5f5;    
 }
 
-.central-box > img {
+.central-box img {
     width: 55%;
 }
 
@@ -432,21 +431,22 @@ section:nth-of-type(6) {
 .lat-square {
     width: 50%;
     height: 252.19px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
 }
 
 .lat-square > img {
     width: 50%;
     filter: invert(100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* BACKGROUND COLORS OF SQUARES */
 
 .light-green {
-    background-color: #a2d39b;
-    border: 0.8rem solid #d1e9cd;
+    background-color: #a2d39b;    
 }
 
 .bordeaux {
@@ -471,6 +471,73 @@ section:nth-of-type(6) {
 
 .yellow {
     background-color: #ffd830;
+}
+
+/* FOCUS EFFECTS OF SQUARES */
+
+.designit, .arizona, .florida, .topps, .bycicle, .hearst, .lonely, .clear-ch {
+    position: absolute;
+    width: calc(100% / 3);
+    padding: 2.5rem;
+    height: 504.38px;
+    overflow: auto;
+}
+
+.arizona, .florida, .topps, .bycicle, .hearst, .lonely, .clear-ch {
+    display: none;
+}
+
+/* LIGHT-GREEN FOCUS */
+
+.light-green:focus {
+    border: 0.8rem solid #d1e9cd;
+    outline: 0;
+}
+
+.light-green:focus , .designit{
+    display: block;
+}
+
+/* BORDEAUX FOCUS */
+
+.bordeaux:focus {
+    border: 0.8rem solid #99184c;
+}
+
+/* LIGHT-BLUE FOCUS */
+
+.light-blue:focus {
+    border: 0.8rem solid #44add7;
+}
+
+/* RED FOCUS */
+
+.red:focus {
+    border: 0.8rem solid #f55e5e;
+}
+
+/* DARK-RED FOCUS */
+
+.dark-red:focus {
+    border: 0.8rem solid #dc3d55;
+}
+
+/* AZURE FOCUS */
+
+.lat-square.bg-azure:focus {
+    border: 0.8rem solid #7babd1;
+}
+
+/* DARK-BLUE FOCUS */
+
+.dark-blue:focus {
+    border: 0.8rem solid #213cab;
+}
+
+/* YELLOW FOCUS */
+
+.yellow:focus {
+    border: 0.8rem solid #fce477;
 }
 
 /* SEVENTH SECTION */
