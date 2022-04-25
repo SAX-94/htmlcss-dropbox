@@ -178,6 +178,7 @@ section:nth-of-type(2) .col-second {
 .customer {
     text-align: center;    
     padding: 0.4rem 0;
+    width: 100%;
 }
 
 .cust-bord {
@@ -251,13 +252,9 @@ ul > li {
 .col-second-wide {
     width: 100%;
     border: 1px solid #b9b8b8;
-    padding-bottom: 0.3rem;    
-}
-
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+    padding-bottom: 0.3rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .team {
@@ -266,8 +263,7 @@ ul > li {
 
 .col-second-sx {
     padding: 1.5rem 0 1.5rem 1.5rem;
-    width: 68%;
-    float: left;
+    width: 68%;    
 }
 
 .col-second-sx h3 {
@@ -287,10 +283,9 @@ ul > li {
 }
 
 .col-second-dx {
-    height: 100%;
-    float: right;
+    height: 100%;    
     padding-top: 1.5rem;
-    padding-right: 2rem;
+    padding-left: 1.2rem;
 }
 
 .col-second-dx a {
@@ -476,7 +471,7 @@ section:nth-of-type(6) {
 
 /* FOCUS EFFECTS OF SQUARES */
 
-.designit, .arizona, .florida, .topps, .bycicle, .hearst, .lonely, .clear-ch {
+.designit {
     position: absolute;
     width: calc(100% / 3);
     aspect-ratio: 1;
@@ -486,6 +481,9 @@ section:nth-of-type(6) {
 
 .arizona, .florida, .topps, .bycicle, .hearst, .lonely, .clear-ch {
     display: none;
+    width: 200%;
+    aspect-ratio: 1;
+    position: absolute;
 }
 
 /* LIGHT-GREEN FOCUS */
@@ -499,10 +497,6 @@ section:nth-of-type(6) {
 
 .bordeaux:focus {
     border: 0.8rem solid #99184c;
-}
-
-.bordeaux:focus.arizona {
-    display: block;
 }
 
 /* LIGHT-BLUE FOCUS */
