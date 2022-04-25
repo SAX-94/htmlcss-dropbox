@@ -516,6 +516,7 @@ section:nth-of-type(8) {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .faq-1 {
@@ -531,11 +532,48 @@ section:nth-of-type(8) {
     border-bottom: 1px solid #a3a3a3;
 }
 
-.mark {
+.faq-sx {
+    width: 75%;
+}
+
+.mark-down {
     transform: rotate(90deg);
     padding: 0.5rem;
     margin-right: 2.5rem;
     font-weight: 900;
+}
+
+.mark-up {
+    transform: rotate(270deg);
+    padding: 0.5rem;
+    margin-right: 2.5rem;
+    font-weight: 900;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.vis-faq {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 100%;
+}
+
+.hid-faq {
+    display: none;
+    position: relative;
+}
+
+.vis-faq:focus {
+    opacity: 0;
+    position: absolute;
+}
+
+.vis-faq:focus + .hid-faq {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* DARK FOOTER */
