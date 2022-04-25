@@ -393,8 +393,7 @@ section:nth-of-type(6) {
 .container-six {
     width: 100%;
     display: flex;
-    min-height: 500px;
-    background-color: orange;
+    min-height: 500px;    
 }
 
 .lateral-boxes {
@@ -432,7 +431,7 @@ section:nth-of-type(6) {
 
 .lat-square {
     width: 50%;
-    height: 252.19px;
+    aspect-ratio: 1;
     position: relative;
 }
 
