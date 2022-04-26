@@ -72,6 +72,10 @@ PER VARI PULSANTI */
     color: white;
 }
 
+.blue-padding:hover {
+    background-color: #3a83f9;
+}
+
 /* MAIN SECTION CLASSES */
 
 /* FIRST SECTION */
@@ -226,6 +230,10 @@ ul > li {
     color: blue;
 }
 
+.buy-now:hover {
+    text-decoration: none;
+}
+
 .col-hr {
     width: 22%;
     border: 0.8px solid #b9b8b8;
@@ -337,6 +345,10 @@ section:nth-of-type(3) {
     color: black;
 }
 
+.trova:hover {
+    background-color: #e6e6e6;
+}
+
 /* FOURTH SECTION */
 
 section:nth-of-type(4) {
@@ -379,6 +391,10 @@ section:nth-of-type(5) a {
     text-decoration: underline;
 }
 
+section:nth-of-type(5) a:hover {
+    text-decoration: none;
+}
+
 /* SIXTH SECTION */
 
 section:nth-of-type(6) {
@@ -391,6 +407,8 @@ section:nth-of-type(6) {
     min-height: 500px;    
 }
 
+/* LATERAL SECTIONS */
+
 .lateral-boxes {
     width: calc(100% / 3);
     aspect-ratio: 1;
@@ -398,6 +416,23 @@ section:nth-of-type(6) {
     flex-wrap: wrap;
     gap: 0;    
 }
+
+.lat-square {
+    width: 50%;
+    aspect-ratio: 1;
+    position: relative;
+}
+
+.lat-square > img {
+    width: 50%;
+    filter: invert(100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* CENTRAL SECTION */
 
 .central-box {
     width: calc(100% / 3);
@@ -423,21 +458,6 @@ section:nth-of-type(6) {
 .central-box > span {
     margin-left: 0;
 } 
-
-.lat-square {
-    width: 50%;
-    aspect-ratio: 1;
-    position: relative;
-}
-
-.lat-square > img {
-    width: 50%;
-    filter: invert(100%);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 /* BACKGROUND COLORS OF SQUARES */
 
@@ -766,6 +786,10 @@ section:nth-of-type(7) h2 {
     font-size: 0.9rem;
 }
 
+.inizia-seven:hover {
+    background-color: #e6e6e6;
+}
+
 /* EIGHTH SECTION */
 
 section:nth-of-type(8) {
@@ -871,6 +895,10 @@ footer {
 .foot-col > h3 {
     padding-bottom: 1rem;
     font-size: 1.4rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 .foot-col > div {
