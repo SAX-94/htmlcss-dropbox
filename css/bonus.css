@@ -480,6 +480,8 @@ section:nth-of-type(6) {
     position: absolute;
 }
 
+/* FOCUSED IMG SIZES */
+
 .designit > img {
     width: 55%;
 }
@@ -511,6 +513,8 @@ section:nth-of-type(6) {
 .clear-ch > img {
     width: 55%;
 }
+
+/* FOCUSED HRs STYLES */
 
 .designit > .box-hr {
     border: 0.8px solid #a1a8b3;
@@ -568,6 +572,8 @@ section:nth-of-type(6) {
     margin-bottom: 2rem;
 }
 
+/* FOCUSED PARAGRAPHS PADDINGS */
+
 .designit p {
     padding-bottom: 3rem;
 }
@@ -599,6 +605,8 @@ section:nth-of-type(6) {
 .clear-ch p {
     padding-bottom: 3rem;
 }
+
+/* FOCUSED SPANS MARGINS */
 
 .designit > span {
     margin-left: 0;
