@@ -641,7 +641,7 @@ section:nth-of-type(6) {
 
 .light-green:focus > .designit {
     opacity: 1;
-    top: 0;
+    top: -13px;
     left: calc(200% + 38px);
 }
 
@@ -653,7 +653,7 @@ section:nth-of-type(6) {
 
 .bordeaux:focus > .arizona {
     opacity: 1;
-    top: 0;
+    top: -13px;
     left: calc(100% + 13px);
 }
 
@@ -687,10 +687,22 @@ section:nth-of-type(6) {
     border: 0.8rem solid #dc3d55;
 }
 
+.dark-red:focus > .bycicle {
+    opacity: 1;
+    top: -13px;
+    right: calc(100% + 13px);
+}
+
 /* AZURE FOCUS */
 
 .lat-square.bg-azure:focus {
     border: 0.8rem solid #7babd1;
+}
+
+.lat-square.bg-azure:focus > .hearst {
+    opacity: 1;
+    top: -13px;
+    right: calc(200% + 38px);
 }
 
 /* DARK-BLUE FOCUS */
@@ -699,10 +711,22 @@ section:nth-of-type(6) {
     border: 0.8rem solid #213cab;
 }
 
+.dark-blue:focus > .lonely {
+    opacity: 1;
+    top: calc(-100% - 38px);
+    right: calc(100% + 13px);
+}
+
 /* YELLOW FOCUS */
 
 .yellow:focus {
     border: 0.8rem solid #fce477;
+}
+
+.yellow:focus > .clear-ch {
+    opacity: 1;
+    top: calc(-100% - 38px);
+    right: calc(200% + 38px);
 }
 
 /* SEVENTH SECTION */
